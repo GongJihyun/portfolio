@@ -40,6 +40,7 @@ body {
 body,
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Link style
@@ -125,6 +126,7 @@ h3 {
     font-size: 24px;
     line-height: 24px;
 }
+
 
 h4 {
     font-size: 18px;
@@ -732,6 +734,11 @@ Icon for all respective meta
 .snsbox{
     overflow: hidden;
     margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-item {
